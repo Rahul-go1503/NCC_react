@@ -1,0 +1,14 @@
+.carousel-home{
+    margin-top: 161.5px;
+  }
+
+  @media only screen and (max-width: 760px) {
+    .carousel-home{
+      margin-top: 97px;
+    }
+  }
+  @media only screen and (max-width: 470px) {
+    .carousel-home{
+      margin-top: 76px;
+    }
+  }
