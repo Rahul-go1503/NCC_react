@@ -5,8 +5,9 @@ import Footer from '../Component/Footer/Footer'
 import { useParams } from 'react-router-dom'
 
 const Blogs = () => {
+  document.title = 'NCC-IITR | Blogs'
   const {author}= useParams();
-  console.log(author);
+  // console.log(author);
   return (
     <>
     <Navbar/>

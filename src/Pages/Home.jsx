@@ -6,6 +6,7 @@ import Navbar from '../Component/Navbar/Navbar'
 
 
 const Home = () => {
+  document.title = 'NCC-IITR'
   return (
     <>
     <Navbar/>

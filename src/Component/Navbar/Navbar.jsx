@@ -30,7 +30,7 @@ const Navbar = () => {
               <div className="navbar-collapse">
                 <ul className="navbar-nav d-flex justify-content-between w-100 me-auto mb-lg-0">
                   <li className="nav-item">
-                    <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+                    <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
                   </li>
                   <li className="nav-item">
                     <NavLink className="nav-link" to="/aboutus">About</NavLink>

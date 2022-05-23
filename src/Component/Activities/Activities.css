@@ -1,7 +1,7 @@
 .about-heading {
     font-weight: bold;
     text-align: center;
-    margin: 122px 40px 40px 40px;
+    margin: 200px 40px 40px 40px;
     font-size: 40px;
   }
   .about-images > img {
@@ -50,7 +50,7 @@
     background-color: black;
   }
   #activityCarousel .carousel-indicators{
-    bottom: -25px;
+    bottom: 0px;
     background: transparent;
   }
   #activityCarousel .carousel-indicators [data-bs-target] {
