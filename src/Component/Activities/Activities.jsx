@@ -36,9 +36,9 @@ const Activities = () => {
                 <h2 className="about-heading aboutheading2">Unity and Discipline</h2>
                 {/* <!-- NCC Images --> */}
                 <div className="about-images d-flex justify-content-around my-4">
-                    <img src="/images/aboutus1.jpg" style={{"width":"30%","borderRadius":"5px"}} alt='about' />
-                    <img src="/images/Aim.jpg" style={{"width":"30%","borderRadius":"5px"}}alt='about' />
-                    <img src="/images/aboutNCC.jpg" style={{"width":"30%","borderRadius":"5px"}}alt='about' />
+                    <img src="./images/aboutus1.jpg" style={{"width":"30%","borderRadius":"5px"}} alt='about' />
+                    <img src="./images/Aim.jpg" style={{"width":"30%","borderRadius":"5px"}}alt='about' />
+                    <img src="./images/aboutNCC.jpg" style={{"width":"30%","borderRadius":"5px"}}alt='about' />
                 </div>
                 <div id="nccImageCarousel" className="carousel slide" data-bs-ride="carousel">
 
