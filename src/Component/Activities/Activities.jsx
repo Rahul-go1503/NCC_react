@@ -52,13 +52,13 @@ const Activities = () => {
                     {/* <!-- The slideshow/carousel --> */}
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="/images/aboutus1.jpg" style={{borderRadius: '10px'}}alt='about' />
+                            <img src="./images/aboutus1.jpg" style={{borderRadius: '10px'}}alt='about' />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/Aim.jpg" style={{borderRadius: '10px'}} alt='about'/>
+                            <img src="./images/Aim.jpg" style={{borderRadius: '10px'}} alt='about'/>
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/aboutNCC.jpg" style={{borderRadius: '10px'}}alt='about'/>
+                            <img src="./images/aboutNCC.jpg" style={{borderRadius: '10px'}}alt='about'/>
                         </div>
                     </div>
 
