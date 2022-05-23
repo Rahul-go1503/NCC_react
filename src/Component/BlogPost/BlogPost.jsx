@@ -36,12 +36,12 @@ return <div key={key}>{i}</div>;
                 style={{ "fontSize": "40px", "textAlign": "center", "marginLeft": "auto", "marginRight": "auto", "marginTop": "2%", "fontFamily": "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" }}>
                 Recommended Blogs</h2>
             <div id="list" className="container d-flex flex-wrap p-0 justify-content-evenly blogList">
-                {data.filter(data => data._id != id).map(blog => (
+                {data.filter(data => data._id !== id).map(blog => (
                     <div className="p-2 blogBox">
                         <div className="ncc-bg-blue blogBig">
                             <Link to={`/blogs/${blog._id}`}>
                                 <div className="blogImg">
-                                    <img src={blog.image} className="blogImg-mobile mobileSmall"/>
+                                    <img src={blog.image} className="blogImg-mobile mobileSmall"alt='blogImg'/>
                                         <div className="ncc-white authorSmall" style={{backgroundImage : `url(${blog.image})`}}>
                                             <span className="details m-2 px-2">
                                                 <p>By: <span>{blog.author}</span></p>

@@ -15,7 +15,7 @@ const AllBlogs = () => {
                             <div className="ncc-bg-blue blogBig">
                                 <Link to={`/blogs/${blog._id}`}>
                                     <div className="blogImg">
-                                        <img src={blog.image} className="blogImg-mobile mobileSmall"/>
+                                        <img src={blog.image} className="blogImg-mobile mobileSmall" alt='blogImage'/>
                                             <div className="ncc-white authorSmall" style={{backgroundImage : `url(${blog.image})`}}>
                                                 <span className="details m-2 px-2">
                                                     <p>By: <span>{blog.author}</span></p>

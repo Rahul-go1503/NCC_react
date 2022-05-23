@@ -1,5 +1,5 @@
 // import Navbar from "./Component/Navbar";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import BlogPost from "./Component/BlogPost/BlogPost";
 import AboutUS from "./Pages/AboutUS";
 import AnnualReports from "./Pages/AnnualReports";

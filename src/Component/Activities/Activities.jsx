@@ -36,9 +36,9 @@ const Activities = () => {
                 <h2 className="about-heading aboutheading2">Unity and Discipline</h2>
                 {/* <!-- NCC Images --> */}
                 <div className="about-images d-flex justify-content-around my-4">
-                    <img src="/images/aboutus1.jpg" style={{"width":"30%","borderRadius":"5px"}} />
-                    <img src="/images/Aim.jpg" style={{"width":"30%","borderRadius":"5px"}} />
-                    <img src="/images/aboutNCC.jpg" style={{"width":"30%","borderRadius":"5px"}} />
+                    <img src="/images/aboutus1.jpg" style={{"width":"30%","borderRadius":"5px"}} alt='about' />
+                    <img src="/images/Aim.jpg" style={{"width":"30%","borderRadius":"5px"}}alt='about' />
+                    <img src="/images/aboutNCC.jpg" style={{"width":"30%","borderRadius":"5px"}}alt='about' />
                 </div>
                 <div id="nccImageCarousel" className="carousel slide" data-bs-ride="carousel">
 
@@ -52,13 +52,13 @@ const Activities = () => {
                     {/* <!-- The slideshow/carousel --> */}
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="/images/aboutus1.jpg" style={{borderRadius: '10px'}} />
+                            <img src="/images/aboutus1.jpg" style={{borderRadius: '10px'}}alt='about' />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/Aim.jpg" style={{borderRadius: '10px'}} />
+                            <img src="/images/Aim.jpg" style={{borderRadius: '10px'}} alt='about'/>
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/aboutNCC.jpg" style={{borderRadius: '10px'}}/>
+                            <img src="/images/aboutNCC.jpg" style={{borderRadius: '10px'}}alt='about'/>
                         </div>
                     </div>
 
@@ -106,7 +106,7 @@ const Activities = () => {
                                         <>
                                             <div key={actno}>
                                                 <div className={`activity d-flex ${activity.flexrev ? 'flex-row-reverse' : ' '} justify-content-between align-items-center`} >
-                                                    <img src={activity.imagePath} style={{ 'borderRadius': '10px' }} />
+                                                    <img src={activity.imagePath} style={{ 'borderRadius': '10px' }}alt='activityimage' />
                                                     <div className="activity-content">
                                                         <h4 className="activity-heading py-2">{activity.heading} </h4>
                                                         <ul>
