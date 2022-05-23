@@ -1,8 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Blogs.css'
 import data from './DataBlogs'
 
 const AllBlogs = () => {
+    
     return (
         <>
             <p className="heading">Blogs</p>
@@ -11,7 +13,7 @@ const AllBlogs = () => {
                     <>
                         <div className="p-2 blogBox">
                             <div className="ncc-bg-blue blogBig">
-                                <a href="./blog-aj.html">
+                                <Link to={`/blogs/${blog._id}`}>
                                     <div className="blogImg">
                                         <img src={blog.image} className="blogImg-mobile mobileSmall"/>
                                             <div className="ncc-white authorSmall" style={{backgroundImage : `url(${blog.image})`}}>
@@ -24,7 +26,7 @@ const AllBlogs = () => {
                                         <span>{blog.Title}</span>
                                         <p className="by">By: <span>{blog.author}</span></p>
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </>

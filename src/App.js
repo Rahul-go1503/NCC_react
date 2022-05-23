@@ -1,5 +1,6 @@
 // import Navbar from "./Component/Navbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import BlogPost from "./Component/BlogPost/BlogPost";
 import AboutUS from "./Pages/AboutUS";
 import AnnualReports from "./Pages/AnnualReports";
 import Blogs from "./Pages/Blogs";
@@ -14,7 +15,9 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/aboutus' element={<AboutUS/>} />
           <Route path='/events' element={<Events/>} />
-          <Route path='/blogs' element={<Blogs/>} />
+          {/* <Route path='/blogs' element={<Blogs/>} /> */}
+          <Route path='/blogs/all' element={<Blogs/>} />
+          <Route path='/blogs/:id' element={<BlogPost/>} />
           <Route path='/faqs' element={<FAQs/>} />
           <Route path='/annualReport' element={<AnnualReports/>} />
         </Routes>
