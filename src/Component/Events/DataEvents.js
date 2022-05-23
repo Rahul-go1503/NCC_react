@@ -6,7 +6,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     },
     {
@@ -16,7 +16,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     },
     {
@@ -26,7 +26,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     },
     {
@@ -36,7 +36,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     },
     {
@@ -46,7 +46,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     },
     {
@@ -56,7 +56,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     },
     {
@@ -66,7 +66,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     },
     {
@@ -76,7 +76,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     },
     {
@@ -86,7 +86,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     },
     {
@@ -96,7 +96,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     },
     {
@@ -106,7 +106,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     },
     {
@@ -116,7 +116,7 @@ const data = [
         Date : '17-04-2022',
         Time : '5:30 AM',
         venue : 'LBS Stadium',
-        image : '/images/yoga.jpg',
+        image : './images/yoga.jpg',
 
     }
 ]
