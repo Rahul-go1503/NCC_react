@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NCC_react/static/css/main.2135c6f6.css",
-    "main.js": "/NCC_react/static/js/main.555a14eb.js",
+    "main.js": "/NCC_react/static/js/main.7a608c24.js",
     "static/media/carousel3.jpg": "/NCC_react/static/media/carousel3.d82ad49abd3399785887.jpg",
     "static/media/carousel2.jpg": "/NCC_react/static/media/carousel2.a619765b166b8be39c71.jpg",
     "static/media/carousel.jpg": "/NCC_react/static/media/carousel.4bbad4f7d7cc2bcdb439.jpg",
@@ -10,10 +10,10 @@
     "index.html": "/NCC_react/index.html",
     "static/media/Infinity-1s-100px.svg": "/NCC_react/static/media/Infinity-1s-100px.602766df6252399943aa.svg",
     "main.2135c6f6.css.map": "/NCC_react/static/css/main.2135c6f6.css.map",
-    "main.555a14eb.js.map": "/NCC_react/static/js/main.555a14eb.js.map"
+    "main.7a608c24.js.map": "/NCC_react/static/js/main.7a608c24.js.map"
   },
   "entrypoints": [
     "static/css/main.2135c6f6.css",
-    "static/js/main.555a14eb.js"
+    "static/js/main.7a608c24.js"
   ]
 }
